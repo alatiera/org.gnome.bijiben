@@ -1,7 +1,7 @@
 {
     "app-id" : "org.gnome.bijiben",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.28",
+    "runtime-version" : "3.30",
     "branch" : "stable",
     "sdk" : "org.gnome.Sdk",
     "command" : "bijiben",
@@ -24,13 +24,6 @@
         "--talk-name=org.gnome.evolution.dataserver.Subprocess.Backend.*",
         "--talk-name=org.freedesktop.Tracker1"
     ],
-    "build-options" : {
-        "cflags" : "-O2 -g",
-        "cxxflags" : "-O2 -g",
-        "env" : {
-            "V" : "1"
-        }
-    },
     "cleanup" : [
         "/include",
         "/lib/pkgconfig",
